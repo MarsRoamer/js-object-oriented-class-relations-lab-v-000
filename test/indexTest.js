@@ -154,6 +154,7 @@ describe('relating a driver to a trip and a passenger', function() {
 
   describe('driver', function(){
     it('has a trips', function() {
+    
       expect(driver.trips()).to.include(firstTrip)
       expect(driver.trips()).to.include(secondTrip)
     })
